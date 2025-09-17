@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import { apiClient } from '../services';
-import { ApiResponse, LoadingState } from '../types';
+import type { ApiResponse, LoadingState } from '../types';
 
 interface UseApiOptions {
   immediate?: boolean;

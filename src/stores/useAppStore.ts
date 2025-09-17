@@ -36,7 +36,7 @@ interface AppState {
 
 export const useAppStore = create<AppState>()(
   persist(
-    (set, get) => ({
+    (set) => ({
       // Theme
       theme: THEMES.SYSTEM,
       setTheme: (theme) => set({ theme }),
